@@ -1,0 +1,23 @@
+{
+    "name": "mikolajprzybysz/php-lambda-flow",
+    "description": "SDK for messaging lambda via sqs and triggering lambda via sns.",
+    "license": "MIT",
+    "homepage": "https://github.com/mikolajprzybysz/php-lambda-flow",
+    "authors": [
+        {
+            "name": "Mikołaj Przybysz",
+            "email": "mikolaj.przybysz@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "LambdaFlow": "src/"
+        }
+    },
+    "require": {
+        "aws/aws-sdk-php": "2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8.0"
+    }
+}
